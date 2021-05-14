@@ -1,0 +1,58 @@
+Body {
+  font-family: Calibri, monaco, Monospace;
+  background-color: white;
+  text-align: center;
+}
+form {
+       border: 3px solid #f1f1f1;
+       background: #efefef;
+       padding-top: 20px;
+       padding-bottom: 20px;
+       padding-left: 30px;
+   }
+   .contact-form
+   {
+       padding: 15px;
+   }
+   .form-group input[type="text"], .form-group textarea{
+    padding: 8px;
+    padding-top: 20px;
+    width: 100%;
+   }
+   .form-control
+   {
+       border-radius: 0 !important;
+       border: 10px !important;
+
+   }
+   ::placeholder
+   {
+       color: #999 !important;
+   }
+   .follow
+   {
+       background: #fff;
+   }
+   .contact-info .fa
+   {
+       margin: 10px;
+       color: #007bff;
+       font-weight: bold;
+       padding-left: 20px;
+       text-align: : center;
+}
+.btn
+{
+  background-color: blue;
+  border-radius: 3px;
+  display: inline-block; !important;
+  font-size: 18px;
+  padding: 5px 20px;
+  transition: 0.5s;
+  padding-top: 10px;
+}
+.btn:hover
+{
+    border-color: 1px solid black;
+    background-color: purple;
+}
